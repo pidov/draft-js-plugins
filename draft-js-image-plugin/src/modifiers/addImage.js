@@ -13,6 +13,7 @@ export default (editorState, url, extraData) => {
     entityKey,
     ' '
   );
+  //
   return EditorState.forceSelection(
     newEditorState,
     newEditorState.getCurrentContent().getSelectionAfter()
